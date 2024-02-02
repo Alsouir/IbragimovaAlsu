@@ -1,0 +1,55 @@
+BasicInfo:
+  FirstName: Алсу
+  LastName: Ибрагимова
+  Photo: img/Алсу.jpeg
+  Contacts:
+    - Icon: fas fa-phone
+      Info: +79373620431
+    - Icon: fas fa-envelope
+      Info: alsouir@mail.ru
+    - Icon: fas fa-globe
+      Info: <a class="contact__link" href="https://github.com/Alsouir" target="_blank">https://github.com/Alsouir</a>
+      
+      
+Profile: Закончила МГТУ им.Н.Э.Баумана с отличием. 
+ProfileA: Стрессоустойчивая, коммуникабельная, умею работать в команде и быстро обучаюсь новым навыкам. 
+ProfileB: Программирование на языке С/C++, Python, работа с Git, Linux, SQL, Bash. 
+ProfileN: <a class="contact__link" href="https://github.com/Alsouir" target="_blank">https://github.com/Alsouir</a>
+
+Education:
+  - Course: Программирование
+    Place: Школа 21
+    Date: 2023 - настоящее время
+    Details: Обучалась программированию на языках С/С++, изучала основы администрирования на ОС Linux, взаимодествие с Gitlab, запросы на SQL.
+ 
+  - Course: Проектирование технологических машин и комплексов 
+    Place: МГТУ им.Н.Э.Баумуна
+    Date: 2017 - 2023
+    Details: Специалитет, закончила с дипломом с отличием. Обучалась на инженера технолога. Изучала множество точных наук.
+
+  - Course: Оператор станков с программным управлением
+    Place: МГОК
+    Date: 2021 - 2022
+    Details: Обучилась работе с программой MasterCAM, также работе на станках с числовым программным управлением, написанием для них программ на G и M кодах.
+
+Skills:
+  - Family: 
+    Items:
+      - Name: C/C++
+      - Name: Python
+      - Name: CSS
+      - Name: QT
+      - Name: SQL
+      - Name: Git
+      - Name: MATLAB
+      - Name: Linux/Bash
+Languages:
+  - Name: Русский
+    Level: Родной
+  - Name:  Английский
+    Level: B1
+  - Name: Турецкий
+    Level: А2
+    
+    
+

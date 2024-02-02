@@ -1,0 +1,23 @@
+{{ if .Skills }}
+<div class="sideSection">
+    <div class="sideSection__heading">
+        <h2 class="sideSection__title">Навыки</h2>
+    </div>
+    <div class="sideSection__content">
+        <ul class="skills">
+            <li>
+                {{ range .Skills }}
+                <ul class="skills__group">
+                   
+                    <br>
+                    {{ range .Items }}
+                    
+                    <div class="skills__name">{{ .Name | safeHTML }}</div>
+                    {{ end }}
+                </ul>
+                {{ end }}
+            </li>
+        </ul>
+    </div>
+</div>
+{{ end }}
